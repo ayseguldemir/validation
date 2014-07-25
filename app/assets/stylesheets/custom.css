@@ -23,7 +23,7 @@ body {
 	border: 0;
 }
 #header ul {
-	background: url(../images/menu-border.gif) no-repeat bottom left;
+	background: url(../images/bg-menu.gif) no-repeat bottom left;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0 0 0 1px;
@@ -38,7 +38,7 @@ body {
 	padding: 0;
 }
 #header ul li a {
-	background: url(../images/menu-border.gif) no-repeat bottom right;
+	background: url(../images/bg-menu.gif) no-repeat bottom right;
 	color: #93958b;
 	display: block;
 	font-size: 14px;
@@ -64,7 +64,7 @@ body {
 	padding: 0;
 }
 #body .header {
-	background: #e5e5e5 url(../images/bg-content-header.gif) repeat-x bottom center;
+	background: #e5e5e5 url(../images/bg-content-header1.jpeg) repeat-x bottom center;
 	margin: 0;
 	padding: 20px 0 44px;
 }

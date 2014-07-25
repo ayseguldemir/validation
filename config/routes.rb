@@ -7,12 +7,13 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'static_pages#index'
   match '/index', to: 'static_pages#index', via: 'get'
-  match '/admission',    to: 'static_pages#admission',    via: 'get'
-  match '/about',   to: 'static_pages#about',   via: 'get'
-  match '/contact', to: 'static_pages#contact', via: 'get'
   match '/programs', to: 'static_pages#programs', via: 'get'
+  match '/cinemas',    to: 'static_pages#cinemas',    via: 'get'
+  match '/movies',   to: 'static_pages#movies',   via: 'get'
+  match '/contact', to: 'static_pages#contact', via: 'get'
+  
   match '/calendar', to: 'static_pages#calendar', via: 'get'
-  match '/blog', to: 'static_pages#blog', via: 'get'
+  match '/scenes', to: 'static_pages#scenes', via: 'get'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
