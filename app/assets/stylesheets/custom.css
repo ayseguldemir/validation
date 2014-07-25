@@ -1,4 +1,4 @@
-@import "bootstrap";
+
 /* Website Template by freewebsitetemplates.com */
 body {
 	background: url(../images/bg-body.jpg) repeat;
@@ -64,7 +64,7 @@ body {
 	padding: 0;
 }
 #body .header {
-	background: #e5e5e5 url(../images/bg-content-header1.jpeg) repeat-x bottom center;
+	background: #e5e5e5 url(../images/bg-header.png) repeat-x bottom center;
 	margin: 0;
 	padding: 20px 0 44px;
 }
